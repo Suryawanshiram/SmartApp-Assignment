@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <button id="btn1">Ext dataview</button>
+            <button id="btn2">Edit</button>
+            <button id="btn3">Delete</button>
+        </div>
+    <div class="box">
+            <div class="para">
+                <div id="output1" >
+                    <h4>Name: <span id="name1"></span></h4>
+                    <h3>Description: <span id="para1"></span></h3>
+                    <h4>Job: <span id="job1"></span></h4>
+                </div>
+                <div id="output2">
+                    <h4>Name: <span id="name2"></span></h4>
+                    <h3>Description: <span id="para2"></span></h3>
+                    <h4>Job: <span id="job2"></span></h4>
+                </div>
+                
+            </div>
+
+         <div class="sidebar">
+                <!-- <form onchange=""> -->
+                    
+                    <label  id="name" for="">Name</label>
+                    <input id="l1" type="text">
+                    <label id="desc" for="">Description</label>
+                    <textarea name=""  id="textarea" cols="30" rows="10"></textarea>
+                    <label id="job" for="">Job Title </label>
+                    <input id="i2" type="text" style="width: 250px; height: 30px;">
+                    <button id="Cancel" onclick="clear()">Cancel</button>
+                    <button id="Save" onclick="printdata()">Save</button>
+                <!-- </form> -->
+            </div>
+        
+            <!-- <div class="para">
+
+            </div> -->
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
