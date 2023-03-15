@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: red;
+}
+
+.container{
+    width: auto;
+    height: 690px;
+    border: 5px solid red;
+    /* display: flex; */
+    background-color:black;
+}
+.first{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+#btn1{
+    border: 5px solid red;
+    height: 40px;
+    align-items: center;
+    margin: 5px 10px;
+    width: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+    
+}
+#btn2{
+    /* width: 55px; */
+    margin: 15px ;
+    border: 4px solid red;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: start;
+    align-items: start;
+    width: 55px;
+
+}
+#btn3{
+    border: 4px solid red;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+
+}
+
+.box{
+    /* width: 1400px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.para{
+    height: 550px;
+    width: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    float: left;
+    padding: 10px;
+    border: 4px solid red;
+    margin: 10px;
+    background-color: black;
+}
+#output1{
+    padding: 15px;
+    padding-left: 5px;
+    margin:5px;
+   width: 350px;
+   height: 200px;
+   border: 5px solid red;
+   border-radius: 5px; 
+   background-color: white;
+  
+}
+#output2{
+    padding: 15px;
+    padding-left: 5px;
+    margin:5px;
+   width: 350px;
+   border: 5px solid red;
+   border-radius: 5px; 
+   height: 200px;
+   background-color: white;
+
+}
+.sidebar{
+    width: 650px;
+}
+#name{
+    display: flex;
+    position: relative;
+    top: -45px;
+    border: 4px solid red;
+    width: 70px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background-color: white;
+}
+#l1{
+  position: relative;
+  top:-165px; 
+  height: 35px;
+  width: 250px;
+  border: 4px solid red;
+  border-radius: 5px;
+
+}
+
+#desc{
+   
+    position: relative;
+    left: -255px;
+    top: -120px;
+    border: 4px solid red;
+  border-radius: 5px;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+
+}
+form{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+#textarea{
+position: relative;
+top: 60px;
+left: -350px;
+border: 4px solid red;
+border-radius: 5px;
+}
+#job{
+    position: relative;
+    left: -570px;
+    top: 110px;
+    border: 4px solid red;
+    border-radius: 5px;
+    background-color: white;
+
+
+}
+#i2{
+    position: relative;
+    top: 115px;
+    left: 15px;
+    border: 4px solid red;
+   border-radius: 5px;
+}
+#Cancel{
+    position: relative;
+    top: 165px;
+    left: -245px;
+    border: 4px solid red;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+}
+#Save{
+    position: relative;
+    top: 165px;
+    left: -225px;
+    border: 4px solid red;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+}
+
+
+
+
+
